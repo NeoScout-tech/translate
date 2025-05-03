@@ -1,0 +1,1148 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-05-03 18:34+0300\n"
+"PO-Revision-Date: 2025-05-03 20:51+0500\n"
+"Last-Translator: \n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: api/app.py:30
+msgid "Invalid data"
+msgstr "Неверные данные"
+
+#: api/app.py:40
+msgid "Request sent successfully"
+msgstr "Запрос успешно отправлен"
+
+#: api/app.py:43
+msgid "An error occurred. Please try again later."
+msgstr "Произошла ошибка. Пожалуйста, попробуйте позже."
+
+#: api/services.py:34 api/services.py:63 api/services.py:102
+#: api/services.py:125 api/templates/emails/user_confirmation.html:69
+#: web/templates/base.html:113 web/templates/base.html:137
+#: web/templates/index.html:181
+msgid "NeoScout"
+msgstr "NeoScout"
+
+#: api/services.py:35 api/services.py:64 api/services.py:103
+#: api/services.py:126
+msgid "NeoScout+"
+msgstr "NeoScout+"
+
+#: api/services.py:36 api/services.py:65 api/services.py:104
+#: api/services.py:127 web/templates/index.html:182
+msgid "Partnership"
+msgstr "Партнерство"
+
+#: api/services.py:37 api/services.py:66 api/services.py:105
+#: api/services.py:128 web/templates/index.html:183
+msgid "Other"
+msgstr "Другое"
+
+#: api/services.py:50 api/templates/emails/admin_notification.html:70
+msgid "New Contact Request from NeoScout"
+msgstr "Новый запрос на контакт от NeoScout"
+
+#: api/services.py:77 api/templates/emails/user_confirmation.html:58
+msgid "Thank You for Contacting NeoScout"
+msgstr "Спасибо за обращение в NeoScout"
+
+#: api/services.py:107
+msgid "contact_method"
+msgstr "способ связи"
+
+#: api/services.py:131
+#, python-brace-format
+msgid ""
+"🌟 Hello, {name}! Thank you for reaching out to NeoScout.\n"
+"\n"
+"We've received your request regarding {topic}. Our team is already on it,"
+" and we'll get back to you soon via Telegram (@{telegram}).\n"
+"\n"
+"In the meantime, feel free to explore more about NeoScout on our website!"
+"\n"
+"🔗 https://neoscout.ru"
+msgstr ""
+"🌟 Привет, {name}! Спасибо, что обратились в NeoScout.\n"
+"\n"
+"Мы получили ваш запрос по теме {topic}. Наша команда уже работает над ним"
+" и скоро свяжется с вами через Telegram (@{telegram}).\n"
+"\n"
+"А пока вы можете узнать больше о NeoScout на нашем сайте!\n"
+"🔗 https://neoscout.ru"
+
+#: api/templates/emails/admin_notification.html:74
+#: web/templates/dashboard.html:110
+msgid "Name"
+msgstr "Имя"
+
+#: api/templates/emails/admin_notification.html:78 web/templates/index.html:178
+msgid "Topic"
+msgstr "Тема"
+
+#: api/templates/emails/admin_notification.html:82
+msgid "Contact Method"
+msgstr "Способ связи"
+
+#: api/templates/emails/admin_notification.html:90
+msgid "Date and Time"
+msgstr "Дата и время"
+
+#: api/templates/emails/admin_notification.html:95
+msgid "This is an automatic notification from the NeoScout website"
+msgstr "Это автоматическое уведомление с сайта NeoScout"
+
+#: api/templates/emails/user_confirmation.html:61
+#, python-format
+msgid ""
+"\n"
+"            <p>Dear <span class=\"highlight\">%(name)s</span>,</p>\n"
+"            <p>We’ve received your request and appreciate your interest "
+"in NeoScout. Our team will reach out to you soon at <span "
+"class=\"highlight\">%(email)s</span>.</p>\n"
+"            "
+msgstr ""
+"\n"
+"            <p>Уважаемый(ая) <span "
+"class=\"highlight\">%(name)s</span>,</p>\n"
+"            <p>Мы получили ваш запрос и благодарим за интерес к NeoScout."
+" Наша команда скоро свяжется с вами по адресу <span "
+"class=\"highlight\">%(email)s</span>.</p>\n"
+"            "
+
+#: api/templates/emails/user_confirmation.html:65
+msgid ""
+"In the meantime, explore more about our cutting-edge WiFi and Bluetooth "
+"scanning solutions on our website!"
+msgstr ""
+"А пока вы можете узнать больше о наших передовых решениях для "
+"сканирования WiFi и Bluetooth на нашем сайте!"
+
+#: api/templates/emails/user_confirmation.html:68
+msgid "Best regards,<br>The NeoScout Team"
+msgstr "С уважением,<br>Команда NeoScout"
+
+#: api/templates/emails/user_confirmation.html:69 web/templates/base.html:137
+msgid "All rights reserved"
+msgstr "Все права защищены"
+
+#: web/routes/auth.py:24
+msgid "Invalid email or password."
+msgstr "Неверный email или пароль."
+
+#: web/routes/auth.py:44
+msgid "Registration successful! Welcome!"
+msgstr "Регистрация успешна! Добро пожаловать!"
+
+#: web/routes/dashboard.py:83
+msgid "Profile updated successfully!"
+msgstr "Профиль успешно обновлен!"
+
+#: web/routes/dashboard.py:104
+msgid "API key generated!"
+msgstr "API-ключ сгенерирован!"
+
+#: web/routes/dashboard.py:115 web/routes/dashboard.py:168
+#: web/routes/device.py:81
+msgid "Device not found."
+msgstr "Устройство не найдено."
+
+#: web/routes/device.py:86
+msgid "Device name is required."
+msgstr "Требуется имя устройства."
+
+#: web/routes/device.py:91
+msgid "Device updated successfully!"
+msgstr "Устройство успешно обновлено!"
+
+#: web/templates/base.html:7 web/templates/base.html:115
+#: web/templates/index.html:2
+msgid "WiFi and Bluetooth Network Scanner"
+msgstr "Сканер сетей WiFi и Bluetooth"
+
+#: web/templates/base.html:94 web/templates/dashboard.html:2
+#: web/templates/policy/privacy.html:2
+msgid "Dashboard"
+msgstr "Панель управления"
+
+#: web/templates/auth/login.html:2 web/templates/base.html:98
+msgid "Log In / Register"
+msgstr "Вход / Регистрация"
+
+#: web/templates/base.html:120
+msgid "Home"
+msgstr "Главная"
+
+#: web/templates/base.html:121
+msgid "API"
+msgstr "API"
+
+#: web/templates/dashboard.html:11 web/templates/dashboard/api_keys.html:2
+#: web/templates/profile.html:10
+msgid "API Keys"
+msgstr "API-ключи"
+
+#: web/templates/dashboard.html:14 web/templates/dashboard.html:129
+#: web/templates/dashboard/devices.html:2 web/templates/profile.html:13
+msgid "Devices"
+msgstr "Устройства"
+
+#: web/templates/dashboard.html:21 web/templates/dashboard/devices.html:10
+msgid "No devices connected yet."
+msgstr "Устройства еще не подключены."
+
+#: web/templates/dashboard.html:24
+msgid "Add New Device"
+msgstr "Добавить устройство"
+
+#: web/templates/dashboard.html:27 web/templates/dashboard.html:28
+#: web/templates/dashboard.html:135
+#: web/templates/dashboard/install_firmware.html:2
+msgid "Install Firmware"
+msgstr "Установить прошивку"
+
+#: web/templates/dashboard.html:33 web/templates/profile.html:28
+msgid "Settings"
+msgstr "Настройки"
+
+#: web/templates/dashboard.html:36 web/templates/dashboard/edit_profile.html:2
+#: web/templates/profile.html:31
+msgid "Edit Profile"
+msgstr "Редактировать профиль"
+
+#: web/templates/dashboard.html:39
+msgid "Log Out"
+msgstr "Выйти"
+
+#: web/templates/dashboard.html:52
+#, python-brace-format
+msgid "ScoutMap Reports for {device_name}"
+msgstr "Отчеты ScoutMap для {device_name}"
+
+#: web/templates/dashboard.html:57 web/templates/view_report.html:6
+msgid "Location"
+msgstr "Местоположение"
+
+#: web/templates/dashboard.html:58
+msgid "Created At"
+msgstr "Создан"
+
+#: web/templates/dashboard.html:59
+msgid "Actions"
+msgstr "Действия"
+
+#: web/templates/dashboard.html:68
+msgid "View"
+msgstr "Просмотр"
+
+#: web/templates/dashboard.html:69
+msgid "Download"
+msgstr "Скачать"
+
+#: web/templates/dashboard.html:78
+msgid "Previous"
+msgstr "Назад"
+
+#: web/templates/dashboard.html:84
+msgid "Next"
+msgstr "Вперед"
+
+#: web/templates/dashboard.html:89
+#: web/templates/dashboard/device_reports.html:11
+msgid "No reports available for this device."
+msgstr "Нет доступных отчетов для этого устройства."
+
+#: web/templates/dashboard.html:94
+#, python-brace-format
+msgid "Edit {device_name}"
+msgstr "Редактировать {device_name}"
+
+#: web/templates/dashboard.html:95
+msgid "Device ID"
+msgstr "ID устройства"
+
+#: web/templates/dashboard.html:98
+msgid "Device Name"
+msgstr "Имя устройства"
+
+#: web/templates/dashboard.html:101
+#: web/templates/dashboard/edit_profile.html:17
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: web/templates/dashboard.html:106
+msgid "Device Details"
+msgstr "Детали устройства"
+
+#: web/templates/dashboard.html:111
+msgid "Serial Number"
+msgstr "Серийный номер"
+
+#: web/templates/dashboard.html:112
+msgid "Connected At"
+msgstr "Подключен"
+
+#: web/templates/dashboard.html:114
+#: web/templates/dashboard/device_reports.html:2 web/templates/profile.html:20
+msgid "ScoutMap Reports"
+msgstr "Отчеты ScoutMap"
+
+#: web/templates/dashboard.html:115
+msgid "Edit"
+msgstr "Редактировать"
+
+#: web/templates/dashboard.html:116
+msgid "Saved WiFi Networks"
+msgstr "Сохраненные сети WiFi"
+
+#: web/templates/dashboard.html:118
+msgid "Forget Device"
+msgstr "Удалить устройство"
+
+#: web/templates/dashboard.html:123
+msgid "Device not found"
+msgstr "Устройство не найдено"
+
+#: web/templates/dashboard.html:130
+#: web/templates/dashboard/connect_device.html:4
+msgid "Connect New Device"
+msgstr "Подключить новое устройство"
+
+#: web/templates/dashboard.html:137 web/templates/dashboard/devices.html:12
+#: web/templates/dashboard/install_firmware.html:4
+msgid "Connect Device"
+msgstr "Подключить устройство"
+
+#: web/templates/dashboard.html:138
+#: web/templates/dashboard/install_firmware.html:5
+msgid "No device connected."
+msgstr "Устройство не подключено."
+
+#: web/templates/dashboard.html:142
+#: web/templates/dashboard/install_firmware.html:8
+msgid "Select Firmware"
+msgstr "Выбрать прошивку"
+
+#: web/templates/dashboard.html:144
+#: web/templates/dashboard/install_firmware.html:10
+msgid "Select a firmware"
+msgstr "Выберите прошивку"
+
+#: web/templates/dashboard.html:148
+msgid "API Key"
+msgstr "API-ключ"
+
+#: web/templates/dashboard.html:149
+msgid "Enter API Key"
+msgstr "Введите API-ключ"
+
+#: web/templates/dashboard.html:151
+#: web/templates/dashboard/install_firmware.html:14
+msgid "Flash Firmware"
+msgstr "Прошить устройство"
+
+#: web/templates/dashboard.html:161 web/templates/dashboard.html:167
+msgid "Select an item from the menu"
+msgstr "Выберите пункт из меню"
+
+#: web/templates/dashboard.html:162 web/templates/dashboard.html:168
+msgid "Choose a section to view its details."
+msgstr "Выберите раздел для просмотра деталей."
+
+#: web/templates/index.html:8
+msgid "Your Cyber-Raccoon for Network Pentesting"
+msgstr "Ваш кибер-енот для сетевого тестирования"
+
+#: web/templates/index.html:9
+msgid "Scan WiFi & Bluetooth, Break Stereotypes, Build Your Own Modules!"
+msgstr ""
+"Сканируйте WiFi и Bluetooth, разрушайте стереотипы, создавайте "
+"собственные модули!"
+
+#: web/templates/index.html:11 web/templates/index.html:155
+msgid "Try ScoutMap"
+msgstr "Попробуйте ScoutMap"
+
+#: web/templates/index.html:12 web/templates/index.html:154
+#: web/templates/index.html:166
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+#: web/templates/index.html:20
+msgid "Why NeoScout?"
+msgstr "Почему NeoScout?"
+
+#: web/templates/index.html:23
+msgid "Network Focus"
+msgstr "Сетевой фокус"
+
+#: web/templates/index.html:24
+msgid "WiFi/Bluetooth scanning, CVE analysis, and exploitation recommendations."
+msgstr "Сканирование WiFi/Bluetooth, анализ CVE и рекомендации по эксплуатации."
+
+#: web/templates/index.html:27
+msgid "DIY & Dashboard"
+msgstr "DIY и Панель управления"
+
+#: web/templates/index.html:28
+msgid ""
+"Build your own device and connect it to the NeoScout dashboard. Free web "
+"analyzer for NeoScout users!"
+msgstr ""
+"Создайте собственное устройство и подключите его к панели управления "
+"NeoScout. Бесплатный веб-анализатор для пользователей NeoScout!"
+
+#: web/templates/index.html:31
+msgid "Affordability"
+msgstr "Доступность"
+
+#: web/templates/index.html:32
+msgid "~50$ cost, open-source, Arduino-compatible."
+msgstr "Стоимость ~4000₽, открытый исходный код, совместимость с Arduino."
+
+#: web/templates/index.html:41
+msgid "Features"
+msgstr "Функции"
+
+#: web/templates/index.html:44
+msgid "Network Analyzer"
+msgstr "Сетевой анализатор"
+
+#: web/templates/index.html:45
+msgid ""
+"Analyzes reports, finds CVEs, suggests attack vectors. Free for "
+"NeoScout users, subscription for others."
+msgstr ""
+"Анализирует отчеты, находит CVE, предлагает векторы атак. Бесплатно"
+" для пользователей NeoScout, для остальных - по подписке."
+
+#: web/templates/index.html:46
+msgid "Join Loyalty Program"
+msgstr "Присоединяйтесь к программе лояльности"
+
+#: web/templates/index.html:49
+msgid "ScoutMap"
+msgstr "ScoutMap"
+
+#: web/templates/index.html:50
+msgid "Port scanner with CVE analysis."
+msgstr "Сканер портов с анализом CVE."
+
+#: web/templates/index.html:51
+msgid "Learn More"
+msgstr "Узнать больше"
+
+#: web/templates/index.html:54
+msgid "NetRush"
+msgstr "NetRush"
+
+#: web/templates/index.html:55
+msgid "Fast device discovery."
+msgstr "Быстрое обнаружение устройств."
+
+#: web/templates/index.html:56 web/templates/index.html:61
+#: web/templates/index.html:66 web/templates/index.html:71
+msgid "Work in Progress"
+msgstr "Работа в процессе"
+
+#: web/templates/index.html:59
+msgid "KeySneak"
+msgstr "KeySneak"
+
+#: web/templates/index.html:60
+msgid "BadUSB with pre-built payloads."
+msgstr "BadUSB с предустановленными скриптами."
+
+#: web/templates/index.html:64
+msgid "PuzzleBox"
+msgstr "PuzzleBox"
+
+#: web/templates/index.html:65
+msgid "Vulnerable services for training."
+msgstr "Уязвимые сервисы для тренировок."
+
+#: web/templates/index.html:69
+msgid "Retro Games"
+msgstr "Retro Games"
+
+#: web/templates/index.html:70
+msgid "Snake, Tetris, Tamagotchi."
+msgstr "Змейка, тетрис, тамагочи."
+
+#: web/templates/index.html:80
+msgid "Technical Specifications"
+msgstr "Технические характеристики"
+
+#: web/templates/index.html:84
+msgid "Hardware"
+msgstr "Оборудование"
+
+#: web/templates/index.html:86
+msgid "ESP32-S3 (240 MHz)"
+msgstr "ESP32-S3 (240 MHz)"
+
+#: web/templates/index.html:87
+msgid "1.3\" IPS (128×64)"
+msgstr "1.3\" IPS (128×64)"
+
+#: web/templates/index.html:88
+msgid "700 mAh (~8 hours)"
+msgstr "700 mAh (~8 часов)"
+
+#: web/templates/index.html:93
+msgid "Interfaces"
+msgstr "Интерфейсы"
+
+#: web/templates/index.html:95
+msgid "USB-C"
+msgstr "USB-C"
+
+#: web/templates/index.html:96
+msgid "SD Card"
+msgstr "SD-карта"
+
+#: web/templates/index.html:97
+msgid "OTA Updates"
+msgstr "Обновления OTA"
+
+#: web/templates/index.html:102
+msgid "Software"
+msgstr "Программное обеспечение"
+
+#: web/templates/index.html:104
+msgid "MicroPython"
+msgstr "MicroPython"
+
+#: web/templates/index.html:105
+msgid "C++ SDK"
+msgstr "C++ SDK"
+
+#: web/templates/index.html:106
+msgid "Web Interface"
+msgstr "Веб-интерфейс"
+
+#: web/templates/index.html:117
+msgid "Scouter — Your Guide"
+msgstr "Скаутер - ваш проводник"
+
+#: web/templates/index.html:119 web/templates/index.html:167
+msgid "Scouter"
+msgstr "Скаутер"
+
+#: web/templates/index.html:121
+msgid ""
+"Agile, cunning, and always on your side. Scouter is a cyber-raccoon from "
+"a cyberpunk future, a master of stealth analysis and digital "
+"infiltration."
+msgstr ""
+"Ловкий, хитрый и всегда на вашей стороне. Скаутер - кибер-енот из "
+"киберпанк-будущего, мастер стелс-анализа и цифрового проникновения."
+
+#: web/templates/index.html:122
+msgid "Get Scouter Stickers"
+msgstr "Получить стикеры со Скаутером"
+
+#: web/templates/index.html:130
+msgid "Roadmap"
+msgstr "Дорожная карта"
+
+#: web/templates/index.html:133
+msgid "Already Done"
+msgstr "Уже сделано"
+
+#: web/templates/index.html:134
+msgid "ScoutMap, API, device integration."
+msgstr "ScoutMap, API, интеграция с устройствами."
+
+#: web/templates/index.html:137
+msgid "In Progress"
+msgstr "В процессе"
+
+#: web/templates/index.html:138
+msgid "P2P data exchange, achievement system."
+msgstr "Обмен данными P2P, система достижений."
+
+#: web/templates/index.html:141
+msgid "Planned"
+msgstr "Планируется"
+
+#: web/templates/index.html:142
+msgid "Full BadUSB support, new games."
+msgstr "Полная поддержка BadUSB, новые игры."
+
+#: web/templates/index.html:151
+msgid "Ready for a Network Adventure?"
+msgstr "Готовы к сетевым приключениям?"
+
+#: web/templates/index.html:152
+msgid "Join the NeoScout Community!"
+msgstr "Присоединяйтесь к сообществу NeoScout!"
+
+#: web/templates/index.html:156
+msgid "Subscribe for Updates"
+msgstr "Подписаться на обновления"
+
+#: web/templates/index.html:168
+msgid "Fill it out, I’ve got your back!"
+msgstr "Заполните его, я прикрою вас!"
+
+#: web/templates/index.html:174
+msgid "Your Name"
+msgstr "Ваше имя"
+
+#: web/templates/index.html:180
+msgid "Select Topic"
+msgstr "Выберите тему"
+
+#: web/templates/index.html:187
+msgid "Preferred Contact Method"
+msgstr "Предпочитаемый способ связи"
+
+#: web/templates/index.html:189
+msgid "Select Method"
+msgstr "Выберите способ связи"
+
+#: web/templates/dashboard/edit_profile.html:10 web/templates/index.html:190
+#: web/templates/index.html:195
+msgid "Email"
+msgstr "Email"
+
+#: web/templates/dashboard/edit_profile.html:14 web/templates/index.html:191
+msgid "Telegram"
+msgstr "Telegram"
+
+#: web/templates/index.html:199
+msgid "Telegram Username"
+msgstr "Имя пользователя Telegram"
+
+#: web/templates/index.html:206
+msgid "Send Request"
+msgstr "Отправить запрос"
+
+#: web/templates/index.html:217
+msgid "Request Sent!"
+msgstr "Запрос отправлен!"
+
+#: web/templates/index.html:218
+msgid "Thank you! We’ll contact you soon."
+msgstr "Спасибо! Мы скоро свяжемся с вами."
+
+#: web/templates/index.html:222
+msgid "Error"
+msgstr "Ошибка"
+
+#: web/templates/index.html:223
+msgid "Something went wrong. Please try again later."
+msgstr "Ошибка загрузки заданий. Пожалуйста, попробуйте позже."
+
+#: web/templates/loyalty.html:2
+msgid "Loyalty Program"
+msgstr "Программа лояльности"
+
+#: web/templates/loyalty.html:6
+msgid "NeoScout Loyalty Program"
+msgstr "Программа лояльности NeoScout"
+
+#: web/templates/loyalty.html:7
+msgid ""
+"Earn exclusive rewards, access premium features, and join the Scouter "
+"squad!"
+msgstr ""
+"Зарабатывайте эксклюзивные награды, получайте доступ к премиум-функциям и"
+" присоединяйтесь к отряду Scouters!"
+
+#: web/templates/loyalty.html:22
+msgid "Take Task"
+msgstr "Взять задание"
+
+#: web/templates/profile.html:2
+msgid "Profile"
+msgstr "Профиль"
+
+#: web/templates/view_report.html:2
+msgid "Report"
+msgstr "Отчет"
+
+#: web/templates/view_report.html:5
+msgid "ScanMap Report"
+msgstr "Отчет ScanMap"
+
+#: web/templates/view_report.html:8
+msgid "Filter by IP"
+msgstr "Фильтр по IP"
+
+#: web/templates/view_report.html:10
+msgid "All statuses"
+msgstr "Все статусы"
+
+#: web/templates/view_report.html:11
+msgid "Active"
+msgstr "Активные"
+
+#: web/templates/view_report.html:12
+msgid "Inactive"
+msgstr "Неактивные"
+
+#: web/templates/view_report.html:14
+msgid "Download Report"
+msgstr "Скачать отчет"
+
+#: web/templates/view_report.html:19
+msgid "IP"
+msgstr "IP"
+
+#: web/templates/view_report.html:20
+msgid "Status"
+msgstr "Статус"
+
+#: web/templates/view_report.html:21
+msgid "Open Ports"
+msgstr "Открытые порты"
+
+#: web/templates/view_report.html:22
+msgid "Time"
+msgstr "Время"
+
+#: web/templates/auth/login.html:8 web/templates/auth/login.html:19
+msgid "Log In"
+msgstr "Войти"
+
+#: web/templates/auth/login.html:9 web/templates/auth/login.html:46
+msgid "Register"
+msgstr "Зарегистрироваться"
+
+#: web/templates/dashboard/api_keys.html:4
+msgid "Your API Key:"
+msgstr "Ваш API-ключ:"
+
+#: web/templates/dashboard/api_keys.html:8
+msgid "No API key generated yet."
+msgstr "API-ключ еще не сгенерирован."
+
+#: web/templates/dashboard/api_keys.html:14
+msgid "Generate/Regenerate API Key"
+msgstr "Сгенерировать/Обновить API-ключ"
+
+#: web/templates/dashboard/api_keys.html:17
+msgid "API Documentation"
+msgstr "Документация API"
+
+#: web/templates/dashboard/connect_device.html:6
+msgid "Enter this code on your device:"
+msgstr "Введите этот код на вашем устройстве:"
+
+#: web/templates/dashboard/connect_device.html:7
+msgid "Code expires in 1 minute."
+msgstr "Код действителен 1 минуту."
+
+#: web/templates/dashboard/connect_device.html:8
+msgid "Connect"
+msgstr "Подключить"
+
+#: web/templates/dashboard/device_reports.html:3
+#: web/templates/dashboard/wifi_networks.html:6
+msgid "Back to Device"
+msgstr "Назад к устройству"
+
+#: web/templates/dashboard/edit_profile.html:6
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: web/templates/dashboard/wifi_networks.html:2
+msgid "WiFi Networks"
+msgstr "WiFi сети"
+
+#: web/templates/dashboard/wifi_networks.html:5
+#, python-brace-format
+msgid "WiFi Networks for {device_name}"
+msgstr "WiFi сети для {device_name}"
+
+#: web/templates/dashboard/wifi_networks.html:18
+msgid "No WiFi networks saved for this device."
+msgstr "Нет сохраненных WiFi сетей для этого устройства."
+
+#: web/templates/errors/404.html:3
+msgid "404 - Page Not Found"
+msgstr "404 - Страница не найдена"
+
+#: web/templates/errors/404.html:11
+msgid "ERROR: PAGE NOT FOUND"
+msgstr "ОШИБКА: СТРАНИЦА НЕ НАЙДЕНА"
+
+#: web/templates/errors/404.html:12
+msgid "Access denied. Target location does not exist."
+msgstr "Доступ запрещен. Целевая локация не существует."
+
+#: web/templates/errors/404.html:13
+msgid "Possible causes:"
+msgstr "Возможные причины:"
+
+#: web/templates/errors/404.html:15
+msgid "URL mistyped"
+msgstr "Опечатка в URL"
+
+#: web/templates/errors/404.html:16
+msgid "Page moved or deleted"
+msgstr "Страница перемещена или удалена"
+
+#: web/templates/errors/404.html:17
+msgid "Access restricted"
+msgstr "Доступ ограничен"
+
+#: web/templates/errors/404.html:20
+msgid "cd /home"
+msgstr "cd /home"
+
+#: web/templates/errors/404.html:21
+msgid "return to safety"
+msgstr "вернуться в безопасность"
+
+#: web/templates/errors/500.html:3
+msgid "500 - Internal Server Error"
+msgstr "500 - Внутренняя ошибка сервера"
+
+#: web/templates/errors/500.html:11
+msgid "ERROR: INTERNAL SERVER ERROR"
+msgstr "ОШИБКА: ВНУТРЕННЯЯ ОШИБКА СЕРВЕРА"
+
+#: web/templates/errors/500.html:12
+msgid "System failure detected. Critical error."
+msgstr "Обнаружен сбой системы. Критическая ошибка."
+
+#: web/templates/errors/500.html:13
+msgid "Error details:"
+msgstr "Детали ошибки:"
+
+#: web/templates/errors/500.html:15
+msgid "Server overload"
+msgstr "Перегрузка сервера"
+
+#: web/templates/errors/500.html:16
+msgid "Database connection failed"
+msgstr "Ошибка подключения к базе данных"
+
+#: web/templates/errors/500.html:17
+msgid "System resources exhausted"
+msgstr "Ресурсы системы исчерпаны"
+
+#: web/templates/errors/500.html:20
+msgid "reboot system"
+msgstr "перезагрузить систему"
+
+#: web/templates/errors/500.html:21
+msgid "return to mainframe"
+msgstr "вернуться на главную"
+
+msgid "CTF"
+msgstr "CTF"
+
+msgid "WiFi Scanning"
+msgstr "Сканирование WiFi"
+
+msgid "Real-time WiFi network detection and analysis"
+msgstr "Обнаружение и анализ WiFi сетей в реальном времени"
+
+msgid "Bluetooth Scanning"
+msgstr "Сканирование Bluetooth"
+
+msgid "Bluetooth device monitoring and analysis"
+msgstr "Мониторинг и анализ устройств Bluetooth"
+
+msgid "Data Analysis"
+msgstr "Анализ данных"
+
+msgid "Detailed statistics and visualization"
+msgstr "Детальная статистика и визуализация"
+
+msgid "Advanced security analysis and threat detection"
+msgstr "Продвинутый анализ безопасности и обнаружение угроз"
+
+msgid "Device Management"
+msgstr "Управление устройствами"
+
+msgid "Efficient device management and monitoring"
+msgstr "Эффективное управление и мониторинг устройств"
+
+msgid "Reports"
+msgstr "Отчеты"
+
+msgid "Comprehensive network analysis reports"
+msgstr "Комплексные отчеты анализа сети"
+
+msgid "WiFi Capabilities"
+msgstr "Возможности WiFi"
+
+msgid "2.4 GHz and 5 GHz bands"
+msgstr "Диапазоны 2.4 ГГц и 5 ГГц"
+
+msgid "802.11 a/b/g/n/ac/ax support"
+msgstr "Поддержка 802.11 a/b/g/n/ac/ax"
+
+msgid "Channel analysis"
+msgstr "Анализ каналов"
+
+msgid "Bluetooth Features"
+msgstr "Функции Bluetooth"
+
+msgid "Bluetooth 4.0 - 5.3 support"
+msgstr "Поддержка Bluetooth 4.0 - 5.3"
+
+msgid "BLE device detection"
+msgstr "Обнаружение BLE устройств"
+
+msgid "Signal strength analysis"
+msgstr "Анализ силы сигнала"
+
+msgid "Available Editions"
+msgstr "Доступные версии"
+
+msgid "Standard Edition"
+msgstr "Стандартная версия"
+
+msgid "600mAh battery"
+msgstr "Аккумулятор 600mAh"
+
+msgid "SSD1602 display"
+msgstr "Дисплей SSD1602"
+
+msgid "Basic features"
+msgstr "Базовые функции"
+
+msgid "Premium Edition"
+msgstr "Премиум версия"
+
+msgid "2000mAh battery"
+msgstr "Аккумулятор 2000mAh"
+
+msgid "Color display"
+msgstr "Цветной дисплей"
+
+msgid "Advanced features"
+msgstr "Продвинутые функции"
+
+msgid "About NeoScout"
+msgstr "О NeoScout"
+
+msgid ""
+"NeoScout is a professional-grade network"
+" scanner designed for comprehensive WiFi"
+" and Bluetooth network analysis. Our "
+"solution provides real-time monitoring, "
+"advanced security features, and detailed "
+"reporting capabilities."
+msgstr ""
+"NeoScout - это профессиональный сканер "
+"сетей, предназначенный для комплексного "
+"анализа WiFi и Bluetooth сетей. Наше "
+"решение обеспечивает мониторинг в реальном "
+"времени, продвинутые функции безопасности и"
+" детальные отчеты."
+
+msgid "Ready to Get Started?"
+msgstr "Готовы начать?"
+
+msgid "Contact us for more information or to request a demo"
+msgstr "Свяжитесь с нами для получения информации или демонстрации"
+
+msgid "task_translate"
+msgstr "Перевод"
+
+msgid "reward_3_months_subscription"
+msgstr "3-месячная подписка"
+
+msgid "task_translate_short"
+msgstr "Переведите NeoScout на другой язык"
+
+msgid "task_translate_full"
+msgstr "Вам необходимо зайти в репозиторий, выбрать любой проект и перевести его на другой язык. Используйте POEdit для облегчения работы"
+
+msgid "task_porting"
+msgstr "Портирование"
+
+msgid "reward_6_months_subscription"
+msgstr "6-месячная подписка"
+
+msgid "task_porting_short"
+msgstr "Портируйте NeoScout на другую платформу"
+
+msgid "task_porting_full"
+msgstr "Вам необходимо выбрать любую программу из репозитория NeoScout и портировать её на другую платформу"
+
+msgid "task_ctf"
+msgstr "Capture The Flag (CTF)"
+
+msgid "reward_1_month_subscription"
+msgstr "1-месячная подписка"
+
+msgid "task_ctf_short"
+msgstr "Краткое описание задания CTF"
+
+msgid "task_ctf_full"
+msgstr "Полное описание задания CTF"
+
+msgid "task_tutorial"
+msgstr "Обучающий материал"
+
+msgid "task_tutorial_short"
+msgstr "Краткое описание обучающего задания"
+
+msgid "task_tutorial_full"
+msgstr "Полное описание обучающего задания"
+
+msgid "task_bug_report"
+msgstr "Отчет об ошибке"
+
+msgid "task_bug_report_short"
+msgstr "Краткое описание задания по отчету об ошибке"
+
+msgid "task_bug_report_full"
+msgstr "Полное описание задания по отчету об ошибке"
+
+msgid "A powerful network reconnaissance tool for scanning WiFi, pinging hosts, and probing ports. Built for hackers, by hackers."
+msgstr "Мощный инструмент сетевой разведки для сканирования WiFi, пинга хостов и проверки портов. Создан хакерами для хакеров."
+
+msgid "Why ScoutMap?"
+msgstr "Почему ScoutMap?"
+
+msgid "Network Recon"
+msgstr "Сетевая разведка"
+
+msgid "Scan WiFi networks, ping hosts, and probe open ports to uncover vulnerabilities."
+msgstr "Сканируйте WiFi сети, пингуйте хосты и проверяйте открытые порты, чтобы выявить уязвимости."
+
+msgid "Open-Source"
+msgstr "Открытый исходный код"
+
+msgid "Built on ESP8266, soon ESP32. Fork it, tweak it, make it yours."
+msgstr "Создан на ESP8266, скоро на ESP32. Сделайте форк, настройте, присвойте себе."
+
+msgid "Report Uploads"
+msgstr "Загрузка отчетов"
+
+msgid "Send scan results to the NeoScout server for detailed analysis."
+msgstr "Отправляйте результаты сканирования на сервер NeoScout для детального анализа."
+
+msgid "WiFi Scanning"
+msgstr "Сканирование WiFi"
+
+msgid "Detect nearby WiFi networks and connect seamlessly."
+msgstr "Обнаруживайте ближайшие WiFi сети и подключайтесь без проблем."
+
+msgid "Host Scanning"
+msgstr "Сканирование хостов"
+
+msgid "Ping IPs or URLs to check host availability locally or remotely."
+msgstr "Пингуйте IP или URL, чтобы проверить доступность хостов локально или удаленно."
+
+msgid "Port Scanning"
+msgstr "Сканирование портов"
+
+msgid "Probe single ports, ranges, or popular ports like 80, 443, and more."
+msgstr "Проверяйте отдельные порты, диапазоны или популярные порты, такие как 80, 443 и другие."
+
+msgid "Report Upload"
+msgstr "Загрузка отчетов"
+
+msgid "Upload JSON reports to the NeoScout server for further analysis."
+msgstr "Загружайте отчеты в формате JSON на сервер NeoScout для дальнейшего анализа."
+
+msgid "Debug Mode"
+msgstr "Режим отладки"
+
+msgid "Detailed logs in English for troubleshooting and optimization."
+msgstr "Подробные логи на английском для устранения неполадок и оптимизации."
+
+msgid "Serial Interface"
+msgstr "Серийный интерфейс"
+
+msgid "Control scans with simple commands like `scan`, `ping`, or `stop`."
+msgstr "Управляйте сканированием с помощью простых команд, таких как `scan`, `ping` или `stop`."
+
+msgid "Get Started with ScoutMap"
+msgstr "Начало работы с ScoutMap"
+
+msgid "Install PlatformIO"
+msgstr "Установите PlatformIO"
+
+msgid "Use the PlatformIO IDE with VS Code to set up your environment."
+msgstr "Используйте IDE PlatformIO с VS Code для настройки окружения."
+
+msgid "Clone the Repo"
+msgstr "Склонируйте репозиторий"
+
+msgid "Grab the ScoutMap code from GitHub and open it in PlatformIO."
+msgstr "Скачайте код ScoutMap с GitHub и откройте его в PlatformIO."
+
+msgid "Upload to ESP"
+msgstr "Загрузите на ESP"
+
+msgid "Connect your ESP board and upload the firmware."
+msgstr "Подключите плату ESP и загрузите прошивку."
+
+msgid "Run Commands"
+msgstr "Запустите команды"
+
+msgid "Use a serial terminal to send commands like `scan all all` or `ping 8.8.8.8`."
+msgstr "Используйте серийный терминал для отправки команд, таких как `scan all all` или `ping 8.8.8.8`."
+
+msgid "Full Installation Guide"
+msgstr "Полное руководство по установке"
+
+msgid "ScoutMap Roadmap"
+msgstr "Дорожная карта ScoutMap"
+
+msgid "Full host and port scanning, WiFi connection, and report uploads."
+msgstr "Полное сканирование хостов и портов, подключение к WiFi и загрузка отчетов."
+
+msgid "Web Interface"
+msgstr "Веб-интерфейс"
+
+msgid "Browser-based control with real-time scan visualization."
+msgstr "Управление через браузер с визуализацией сканирования в реальном времени."
+
+msgid "Advanced Scanning"
+msgstr "Расширенное сканирование"
+
+msgid "Service detection, OS fingerprinting, and stealth modes."
+msgstr "Обнаружение сервисов, определение ОС и скрытые режимы сканирования."
+
+msgid "Mobile App"
+msgstr "Мобильное приложение"
+
+msgid "Control ScoutMap via a mobile app with push notifications."
+msgstr "Управляйте ScoutMap через мобильное приложение с push-уведомлениями."
+
+msgid "Cloud Integration"
+msgstr "Интеграция с облаком"
+
+msgid "Store and analyze scan reports in a cloud dashboard."
+msgstr "Храните и анализируйте отчеты сканирования в облачной панели управления."
+
+msgid "Join the NeoScout Crew"
+msgstr "Присоединяйтесь к команде NeoScout"
+
+msgid "Contribute to ScoutMap by fixing bugs, adding features, or suggesting ideas. Fork the repo and join the community!"
+msgstr "Внесите вклад в ScoutMap, исправляя ошибки, добавляя функции или предлагая идеи. Сделайте форк репозитория и присоединяйтесь к сообществу!"
+
+msgid "Contribute Now"
+msgstr "Внести вклад сейчас"
+
+msgid "Ready to Scan the Network?"
+msgstr "Готовы сканировать сеть?"
+
+msgid "Join the NeoScout Community and take control with ScoutMap!"
+msgstr "Присоединяйтесь к сообществу NeoScout и управляйте с помощью ScoutMap!"
