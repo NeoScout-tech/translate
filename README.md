@@ -87,7 +87,7 @@ git commit -m "Add Spanish translations for NeoScout website"
 ```bash
 git push origin add-es-translations
 ```
-- Open a Pull Request (PR) on the [NeoScout Translations repo](https://github.com/neoscout-tech/translations).
+- Open a Pull Request (PR) on the [NeoScout Translations repo](https://github.com/neoscout-tech/translate).
 In the PR description, mention the language and project (e.g., “Added Spanish translations for website”).
 ### Rewards
 For every fully translated and verified language, you’ll receive:
